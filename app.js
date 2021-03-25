@@ -5,9 +5,14 @@ alert("hello ASAC student's")
  var choose = prompt("what is your favorite social media site facbooc , instgram, githob");
  if(choose === 'facbook'){
      document.write('facbooc is good choice');}
-     else if(choose ==='instgram');
+     else if(choose ==='instgram')
      {
         document.write('instgram is good choice');
 
-     } 
+     } else if(choose === 'github')
+     {
+         document.write('git hub is agood choice');
+
+     }
+      else {document.write('thanck for your vesiting')}
 
